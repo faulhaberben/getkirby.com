@@ -204,15 +204,15 @@ With
 ```
 we get the data from the text field of the page. The `html()` (glossary: field-method text: field method) is used to escape content.
 
-<info>
-PHP may swallow a newline if a printed variable like `<?= $variable ?>` is placed at the end of a line. This can also affect regular templates, so don't rely on an end-of-line `<?= ... ?>` alone when a preserved line break is important.
-</info>
-
 All fields we added to our page content files are accessible like this.
 
 <info>
 Fieldnames are converted to lowercase and any punctuation is replaced with underscores as PHP does not support special characters in method names.
 </info>
+
+<warning>
+PHP may swallow a newline if a printed variable like `<?= $variable ?>` is placed at the end of a line. This can also affect regular templates, so don't rely on an end-of-line `<?= ... ?>` alone when a preserved line break is important.
+</warning>
 
 ## Reserved words
 
