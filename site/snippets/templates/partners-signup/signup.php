@@ -100,7 +100,6 @@
 		@submit="submit"
 	>
 		<input type="hidden" name="timestamp" :value="locale.timestamp">
-		<input type="hidden" name="csrf" value="<?= csrf() ?>">
 		<div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;">
 			<label for="date_of_birth">Date of birth</label>
 			<input

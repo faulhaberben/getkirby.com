@@ -76,11 +76,6 @@ return function (App $kirby, Page $page) {
 				exit('OK');
 			}
 
-			if ((!$token = get('csrf')) || csrf($token) === false) {
-				http_response_code(200);
-				exit('OK');
-			}
-
 			$page->validatePlan($plan);
 			$page->validateReferences($plan, $references);
 			$page->validateWebsite($website);
