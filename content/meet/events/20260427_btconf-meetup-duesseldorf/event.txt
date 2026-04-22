@@ -6,4 +6,4 @@ country: Germany
 ----
 conference: Beyond Tellerrand
 ----
-link: https://beyondtellerrand.com/events/dusseldorf-2026/side-events/kirby-meeting
+link: https://www.meetup.com/de-de/kirby-community-nrw/events/314415478/
