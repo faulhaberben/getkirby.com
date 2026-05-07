@@ -169,7 +169,7 @@ mark {
 
 @media screen and (min-width: 60rem) {
 	.form-boxes {
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: 2fr;
 	}
 
 	.form-box-data {
@@ -245,6 +245,7 @@ mark {
 		<?php snippet('templates/new-company/thank-you') ?>
 	<?php else: ?>
 		<?php snippet('templates/new-company/intro') ?>
+		<?php snippet('templates/new-company/authenticated') ?>
 
 		<?php if ($email): ?>
 			<?php snippet('templates/new-company/authenticated') ?>
