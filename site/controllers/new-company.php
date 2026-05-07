@@ -64,12 +64,6 @@ return function (Page $page) {
 			}
 		}
 
-		if (get('newsletter') === 'subscribe') {
-			if (customerSubscribe($email, $hasNewsletter) === false) {
-				$error[] = 'Your subscription could not be confirmed';
-			}
-		}
-
 		if (empty($error) === true) {
 			go($page->url() . '?thank=you');
 		}
