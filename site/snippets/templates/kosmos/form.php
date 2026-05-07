@@ -1,20 +1,5 @@
 <form action="<?= option('keys.mailcoach.form_url') ?>" method="post" class="kosmos-form highlight bg-light rounded">
 	<div class="kosmos-fields">
-		<input
-			type="hidden"
-			name="redirect_after_subscribed"
-			value="<?= 'https://' . option('keys.mailcoach.api_domain') . '/subscribed' ?>"
-		/>
-		<input
-			type="hidden"
-			name="redirect_after_already_subscribed"
-			value="<?= 'https://' . option('keys.mailcoach.api_domain') . '/already-subscribed' ?>"
-		/>
-		<input
-			type="hidden"
-			name="redirect_after_subscription_pending"
-			value="<?= 'https://' . option('keys.mailcoach.api_domain') . '/redirect-after-pending' ?>"
-		/>
 		<div class="kosmos-field">
 			<label class="h5 mb-3 block" for="email">Email <small>(required)</small></label>
 			<input class="input mb-3" id="email" name="email" required type="email">
