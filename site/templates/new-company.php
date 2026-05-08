@@ -245,7 +245,6 @@ mark {
 		<?php snippet('templates/new-company/thank-you') ?>
 	<?php else: ?>
 		<?php snippet('templates/new-company/intro') ?>
-		<?php snippet('templates/new-company/authenticated') ?>
 
 		<?php if ($email): ?>
 			<?php snippet('templates/new-company/authenticated') ?>
