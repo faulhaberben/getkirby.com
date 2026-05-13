@@ -12,7 +12,7 @@ Intro: The current state of Kirby's security releases, AI-generated reports, and
 
 Text:
 
-Since Kirby started in 2012, we've been lucky to have had a good track record of very few security issues. Over the years, big companies started adopting our software and in the process of the adoption, Kirby has been handed over to multiple security companies and researchers to find issues beforehand.
+Since Kirby started in 2012, we've been lucky to have had a good track record of very few security issues. Over the years, big companies started adopting our software and in the process of the adoption, Kirby's source code has been handed over to multiple security companies and researchers to find issues beforehand.
 
 In our team, we've also established a careful process to avoid security issues early on whenever possible. We follow industry best practices closely, have a thorough review process for code changes to look out for potential security risks, and react quickly whenever a vulnerability report does come in.
 
@@ -42,4 +42,4 @@ But it requires a lot more work and resources on all sides. For you and for us. 
 - Make sure that you have a solid deployment process to be able to update and test your installations quickly and effectively.
 - Follow our announcements closely on [Discord](chat.getkirby.com), in the [forum](https://forum.getkirby.com) or [via RSS](https://github.com/getkirby/kirby/releases.atom).
 - Check our [security support table](https://getkirby.com/security/#supported-versions) for supported versions. If you are still running a very old Kirby version, please try to upgrade to Kirby 5. Otherwise, we won’t be able to provide patches for you.
-- Report issues responsibly according to our [security policy](https://getkirby.com/security), if you run your own (AI or human) research and find something that we didn't find so far.
+- Report issues responsibly according to our [security policy](https://getkirby.com/security#reporting-a-vulnerability), if you run your own (AI or human) research and find something that we didn't find so far.
