@@ -40,6 +40,6 @@ But it requires a lot more work and resources on all sides. For you and for us. 
 
 - We can only recommend installing the security updates as quickly as possible. With our new monthly security schedule (see above), you already know in advance when a security release will happen, and you can plan ahead accordingly.
 - Make sure that you have a solid deployment process to be able to update and test your installations quickly and effectively.
-- Follow our announcements closely on [Discord](chat.getkirby.com), in the [forum](https://forum.getkirby.com) or [via RSS](https://github.com/getkirby/kirby/releases.atom).
+- Follow our announcements closely on [Discord](https://chat.getkirby.com), in the [forum](https://forum.getkirby.com) or [via RSS](https://github.com/getkirby/kirby/releases.atom).
 - Check our [security support table](https://getkirby.com/security/#supported-versions) for supported versions. If you are still running a very old Kirby version, please try to upgrade to Kirby 5. Otherwise, we won’t be able to provide patches for you.
 - Report issues responsibly according to our [security policy](https://getkirby.com/security#reporting-a-vulnerability), if you run your own (AI or human) research and find something that we didn't find so far.
