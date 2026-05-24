@@ -1,42 +1,42 @@
 <?php
 
 return [
-	'algolia'            => '',
-	'airtable'           => '',
-	'discord'            => [
+	'algolia'  => '',
+	'airtable' => '',
+	'discord'  => [
 		'bot'   => '',
 		'guild' => '',
 		'hooks' => [
 			'partners' => ''
 		]
 	],
-	'fastmail'           => '',
-	'github'             => '',
-	'hooks'              => '',
-	'hub'                => '',
-	'keycdn'             => '',
-	'paddle'             => [
+	'fastmail' => '',
+	'github'   => '',
+	'hooks'    => '',
+	'hub'      => '',
+	'keycdn'   => '',
+	'paddle'   => [
 		'id'   => 1,
 		'auth' => '',
 	],
-	'oauth'              => [
+	'oauth' => [
 		'discord' => [
 			'clientId'     => '',
 			'clientSecret' => '',
 		],
-		'github'  => [
+		'github' => [
 			'clientId'     => '',
 			'clientSecret' => '',
 		]
 	],
-	'mailcoach'          => [
+	'mailcoach' => [
 		'emailList_uuid' => '',
 		'api_domain'     => '',
 		'api_key'        => '',
 		'api_url'        => '',
 		'form_url'       => '',
 	],
-	'partners'           => [
+	'partners' => [
 		'signupToken' => '',
 		'accessToken' => ''
 	],
