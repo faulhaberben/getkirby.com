@@ -20,7 +20,7 @@
 		</div>
 	<?php endif ?>
 
-	<div class="form-boxes mb-12" data-span="<?= $hasData && $hasNewsletter ? 'true' : 'false' ?>">
+	<div class="form-boxes mb-12" data-span="<?= $hasData ? 'true' : 'false' ?>">
 		<div class="form-box form-box-data" data-active="<?= $hasData ? 'true' : 'false' ?>">
 			<div>
 				<h3 class="h3 mb-6">Licenses and purchase history</h3>
@@ -53,30 +53,8 @@
 				</footer>
 			<?php endif ?>
 		</div>
-
-		<div class="form-box form-box-kosmos" data-active="<?= $hasNewsletter ? 'true' : 'false' ?>">
-			<div>
-				<h3 class="h3 mb-6">Kosmos subscription</h3>
-				<div class="prose text-base mb-12">
-					<?php if ($hasNewsletter): ?>
-						<p><mark>We need your confirmation that you want to receive our monthly Kosmos newsletter from <abbr title="Content Folder GmbH & Co. KG">our new company</abbr> from now&nbsp;on.</mark></p>
-					<?php else: ?>
-						<p><mark>Receive our monthly newsletter issues. We won't ever spam you and you can unsubscribe at any given time.</mark></p>
-					<?php endif ?>
-				</div>
-			</div>
-			<footer>
-				<label class="checkbox">
-					<strong class="text-sm">
-						<input type="checkbox" name="newsletter" value="subscribe" <?= get('newsletter') === 'subscribe' ? 'checked' : '' ?> class="mr-3">
-						<?= $hasNewsletter ? 'I agree to keep my subscription' : 'I want the newsletter' ?>
-					</strong>
-				</label>
-				<input type="hidden" name="email" value="<?= esc($email) ?>">
-				<input type="hidden" name="hash" value="<?= esc($hash) ?>">
-			</footer>
-		</div>
 	</div>
+
 
 	<div class="text-center" style="--span: 3">
 		<button class="btn btn--filled">
