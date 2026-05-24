@@ -212,9 +212,7 @@
 		v-if="form.plan === 'certified'"
 		class="field partner-listing-summary"
 	>
-		<span :style="labelStyle(form.summary)">
-			Short description about yourself in 140 characters or less: your strengths as company and why the audience should choose you.
-		</span>
+		Short description about yourself in 140 characters or less: your strengths as company and why the audience should choose you.
 	</p>
 </article>
 
