@@ -71,6 +71,7 @@ return function (App $kirby, Page $page) {
 			// there will be a redirect to Paddle)
 			Time::validate($timestamp);
 
+			// check anti-spam honeypot
 			if (get('date_of_birth')) {
 				http_response_code(200);
 				exit('OK');
