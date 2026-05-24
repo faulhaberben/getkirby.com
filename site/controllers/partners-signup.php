@@ -5,7 +5,6 @@ use Kirby\Buy\Passthrough;
 use Kirby\Buy\Product;
 use Kirby\Cms\App;
 use Kirby\Cms\Page;
-use Kirby\Cms\Visitor;
 use Kirby\Discord\Discord;
 use Kirby\Honey\Time;
 use Kirby\Http\Remote;
@@ -107,7 +106,7 @@ return function (App $kirby, Page $page) {
 						'reviewRef'     => $downloadLink,
 						'notes'         => $notes,
 						'created'       => date('Y-m-d H:i:s'),
-						'ip'            => kirby()->visitor()->ip(hash: true),
+						'ip'            => $kirby->visitor()->ip(hash: true),
 					]
 				], JSON_THROW_ON_ERROR),
 				'headers' => [
