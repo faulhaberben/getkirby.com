@@ -364,23 +364,9 @@ We store and process information of businesses who have applied to become partne
 
 We also store and process information of project leads submitted by interested people, which may contain personal data depending on the project request. We process this data to match the project requests to our partners.
 
+The data is processed on our servers, see the [section on hosting](#website__hosting).
+
 The basis for data processing is Art. 6 (1) (b) GDPR, which allows the processing of data to fulfill a contract or for measures preliminary to a contract.
-
-### Third-party services
-
-We use the following third-party for our partner directory:
-
-#### Airtable
-
-We use Airtable to manage partnerships and project requests:
-
-*Airtable
-799 Market St., 8th Floor
-San Francisco
-CA 94103
-USA*
-
-Airtable complies with GDPR. You can find their privacy policy here: <https://www.airtable.com/company/privacy>
 
 ## Shop
 
@@ -459,4 +445,4 @@ We try to keep our privacy policy as transparent and easy to understand as possi
 ## Updates
 
 We will regularly check and update this privacy policy if necessary.
-**Last update: June 30, 2024**
+**Last update: June 6, 2026**
