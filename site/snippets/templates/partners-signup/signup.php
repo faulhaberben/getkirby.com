@@ -100,7 +100,15 @@
 		@submit="submit"
 	>
 		<input type="hidden" name="timestamp" :value="locale.timestamp">
-
+		<div style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0;">
+			<label for="date_of_birth">Date of birth</label>
+			<input
+				type="text"
+				aria-hidden="true"
+				tabindex="-1"
+				name="date_of_birth"
+			>
+		</div>
 		<div>
 			<fieldset class="mb-6">
 				<legend class="label">Partnership</legend>
@@ -294,7 +302,6 @@ createApp({
 		businessName: "",
 		businessType: "",
 		location: "",
-		summary: "",
 
 		// business info
 		website: "",
