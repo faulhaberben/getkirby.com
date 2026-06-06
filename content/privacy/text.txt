@@ -368,6 +368,22 @@ The data is processed on our servers, see the [section on hosting](#website__hos
 
 The basis for data processing is Art. 6 (1) (b) GDPR, which allows the processing of data to fulfill a contract or for measures preliminary to a contract.
 
+### Third-party services
+
+We use the following third-party for our partner directory:
+
+#### Airtable
+
+We use Airtable to collect the information you submit for your partner profile:
+
+*Airtable
+799 Market St., 8th Floor
+San Francisco
+CA 94103
+USA*
+
+Airtable complies with GDPR. You can find their privacy policy here: <https://www.airtable.com/company/privacy>
+
 ## Shop
 
 Our order process is conducted by our online reseller (link: https://paddle.com text: Paddle.com). Paddle.com is the Merchant of Record for all our orders. Paddle provides all customer service inquiries and handles returns.
