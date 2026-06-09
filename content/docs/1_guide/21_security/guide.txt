@@ -65,6 +65,14 @@ Our debug view is exposing important system information that should not be leake
 
 (link: /docs/reference/system/options/debug text: How to disable debug mode in your config).
 
+## Create the first admin user
+
+Kirby protects registrations on public domains by default, but cannot cover all deployment setups. So to reliably prevent external initialization attacks we recommend setting up the initial admin account before deployment to a public server or disabling Panel and API access entirely if no user accounts are needed.
+
+- (link: /docs/guide/quickstart#create-your-first-account text: How to create the first account)
+- (link: /docs/reference/system/options/panel#disabling-the-panel text: How to disable the Panel)
+- (link: /docs/reference/system/options/api#disable-the-api text: How to disable the API)
+
 ## Secure your server
 
 Your server's security is essential for the security of your website and data as well as Kirby's security. Please make sure that you work together with experienced system administrators and hosting partners who keep your server up to date and know how to protect it against external attacks. Don't try to setup your own server if you don't exactly know what you are doing.
