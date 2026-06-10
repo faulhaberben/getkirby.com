@@ -44,7 +44,7 @@ return [
 
 ## Salt for drafts and media files
 
-URLs of page drafts and media files contain a hashed token that should be hard to guess. Generating the token requires a salt string that should be stable and consistent on the server, but still independent from other sites or setups and ideally private. The salt is set to the filesystem path of the content root by default, but you can define your own salt that will be used instead:
+URLs of page drafts and media files contain a hashed token that should be hard to guess. Generating the token requires a salt string that should be stable and consistent on the server, but still independent from other sites or setups and ideally private. The salt is set to the filesystem path of the content root by default (which can sometimes be guessed), so you should define your own salt that will be used instead:
 
 ```php
 return [
@@ -53,6 +53,10 @@ return [
   ]
 ];
 ```
+
+<info>
+The content salt should be a long string of random characters.
+</info>
 
 You can also dynamically generate a salt based on the model that needs a token:
 
@@ -69,6 +73,8 @@ return [
 <since v="5.0.0">
 When generating a salt for preview authentication tokens of drafts and versions, the closure will not receive as model as argument as those tokens are only based on the URI. The salt callback instead receives `null`  and is expected to return a fixed model-independent salt in this case. When generating a salt for a file media token, the file object is still passed as model.
 </since>
+
+You can read more about the security impact of this option in the (link: docs/guide/security#set-secure-random-values-for-the-content-salt-and-cookie-key text: security guide).
 
 ## UUID generation
 
