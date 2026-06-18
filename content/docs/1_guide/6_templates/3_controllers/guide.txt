@@ -245,6 +245,3 @@ return function () {
 </since>
 
 
-## More information
-
-(link: docs/cookbook/development-deployment/shared-controllers text: Shared controllers)
